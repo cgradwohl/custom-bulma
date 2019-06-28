@@ -8,4 +8,5 @@ or, run `yarn dev` and edit your color scheme in real time.
 ## How to use
 Start a LiveServer for `index.html`
 `yarn dev` - watches for changes to `main.scss` and then updates `index.html`.
-`yarn build` - creates a minified and compressed css file, main.
+`yarn build` - creates a minified and compressed css file, main. Make sure to 
+set `APP_NAME` in package.json to name your distribution file!
