@@ -1,10 +1,12 @@
 {
-  "name": "bulma-test",
+  "name": "bulma-extend",
+  "APP_NAME": "cg-bulma",
   "version": "1.0.0",
+  "author": "Christopher S Gradwohl",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "sass public/styles/main.scss dist/main.dev.css --watch",
+    "dev": "sass public/styles/main.scss dist/main.css --watch",
     "build": "gulp clean; gulp styles"
   },
   "browserslist": [
@@ -20,6 +22,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-csso": "^3.0.1",
-    "gulp-postcss": "^8.0.0"
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0"
   }
 }
