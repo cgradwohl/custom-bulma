@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "sass main.scss styles/main.css --watch",
-    "build": "gulp clean; gulp styles"
+    "build": "gulp clean; sass main.scss styles/main.css; gulp styles"
   },
   "browserslist": [
     "defaults"

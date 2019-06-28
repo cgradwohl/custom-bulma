@@ -7,7 +7,7 @@ const rename = require("gulp-rename");
 const package = require('./package.json');
 
 gulp.task('styles', () => {
-  return gulp.src('./main.css')
+  return gulp.src('./styles/main.css')
     // Auto-prefix css styles for cross browser compatibility
     .pipe(postcss([ autoprefixer() ]))
     // Minify the file
