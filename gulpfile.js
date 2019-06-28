@@ -1,4 +1,4 @@
-const autoprefixer = require('gulp-autoprefixer');
+const autoprefixer = require('autoprefixer');
 const csso = require('gulp-csso');
 const del = require('del');
 const gulp = require('gulp');
