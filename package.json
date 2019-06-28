@@ -6,7 +6,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "sass public/styles/main.scss dist/main.css --watch",
+    "dev": "sass main.scss styles/main.css --watch",
     "build": "gulp clean; gulp styles"
   },
   "browserslist": [
