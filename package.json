@@ -1,6 +1,6 @@
 {
   "name": "custom-bulma",
-  "APP_NAME": "cg-bulma",
+  "APP_NAME": "custom-bulma",
   "version": "1.0.0",
   "author": "Christopher S Gradwohl",
   "main": "index.js",
