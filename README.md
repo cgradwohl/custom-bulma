@@ -2,7 +2,7 @@
 This tool customizes the bulma framework to suit your apps needs. 
 Creates a compressed and minified css file for use in your apps.
 
-Simply set your colors and fonts in main.scss and run `yarn build`
+Simply set your colors and edit global styles in main.scss and run `yarn build`
 or, run `yarn dev` and edit your color scheme in real time.
 
 ## How to use
